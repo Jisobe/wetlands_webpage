@@ -1,0 +1,94 @@
+/* #E2E1DA, #3E3F2C, #C3C5A7 #777, and #FFF */
+
+	* {margin:0; padding:0}
+
+	body {
+		width: 1110px;
+		height: 680px;
+		margin: 40px auto;
+    background-color: #3E3F2C;
+	}
+
+	#links {
+		float: left;
+		background-color: #E2E1DA;
+		height: 200px;
+		width: 225px;
+		padding: 10px;
+	}
+
+	a{
+		background: url("/images/button.jpg");
+		float: left;
+		width: 210px;
+		height: 31px;
+		text-align: center;
+		margin: 5px;
+		color: rgb(158, 157, 157);
+	}
+
+	a:hover{
+		background: url("/images/buttonselected.jpg");
+		color: rgb(68, 68, 68);
+	}
+
+	#banner{
+		background-image: url(images/wetlandsbanner.jpg);
+		height: 220px;
+		width: 865px;
+		position: relative;
+		left: 245px;
+	}
+
+	h1 {
+		color: #FFF;
+		text-shadow: 4px 4px 5px black;
+		font-size: 50px;
+		position: absolute;
+		left: 55px;
+		top: 135px;
+	}
+
+	#information{
+		width: 1110px;
+		height: 400px;
+		color: #FFF;
+		text-indent: 10px;
+		font-size: 16px;
+		line-height: 1.6;
+	}
+
+	.column_light{
+		float:left;
+		height: 360px;
+		width: 330px;
+		background-color: #C3C5A7;
+		text-align: justify;
+		padding: 20px;
+	}
+
+	.column_dark{
+		float:left;
+		height: 360px;
+		width: 330px;
+		background-color: #3E3F2C;
+		text-align: justify;
+		padding: 20px;
+	}
+
+	.p_img {
+		float:left;
+		padding: 0 20px 20px 0;
+	}
+
+	#foot {
+		float:none;
+		height:30px;
+		width: 1110px;
+		background-color: #E2E1DA;
+		color: #777;
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+		padding: 15px 0 15px 0;
+	}
